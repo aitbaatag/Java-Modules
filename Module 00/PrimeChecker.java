@@ -15,7 +15,7 @@ public class PrimeChecker {
             System.out.println("IllegalArgument");
             System.exit(-1);
         }
-        while (dev < Math.sqrt(number))
+        while (dev <= Math.sqrt(number))
         {
             if (number % dev == 0)
             {
@@ -28,4 +28,3 @@ public class PrimeChecker {
         System.out.println(isPrime + " " + iterations);
     }
 }
-    
